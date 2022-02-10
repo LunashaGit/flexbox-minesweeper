@@ -7,10 +7,15 @@
   padding: 0;
 }
 
+body {
+  max-height: 1080px;
+}
+
 section {
   display: flex;
   max-height: 500px;
   max-width: 456px;
+  vertical-align: middle;
   border-left: 10px solid #353535;
   border-top: 10px solid #353535;
   border-right: 10px solid #dbdbdb;
@@ -83,6 +88,9 @@ img {
   max-width: 476px;
   max-height: 515px;
   margin: auto;
+  position: absolute;
+  top: 15%;
+  left: 37.5%;
 }
 
 /*# sourceMappingURL=style.css.map */

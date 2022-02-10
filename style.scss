@@ -8,10 +8,15 @@
     padding: 0;
 }
 
+body{
+    max-height: 1080px;
+}
+
 section{
     display: flex;
     max-height: 500px;
     max-width: 456px;
+    vertical-align: middle;
     border-left: 10px solid rgb(53, 53, 53);
     border-top:10px solid rgb(53, 53, 53);
     border-right:10px solid rgb(219, 219, 219);
@@ -80,5 +85,8 @@ img{
     border: rgb(160, 160, 160) solid 10px;
     max-width: 476px;
     max-height: 515px;
-    margin: auto; 
+    margin: auto;
+    position: absolute;
+    top: 15%;
+    left: 37.5%;
 }
