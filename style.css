@@ -21,16 +21,16 @@ section {
 section div {
   height: 50px;
   width: 55px;
-  margin: 0 auto;
-  border: 1px dotted #555;
-  font-size: 30px;
   text-align: center;
-  padding-top: 10px;
+  margin: 0 auto;
+  padding-top: 5px;
+  border: 1px dotted #555;
+  font-size: 45px;
 }
 
 img {
-  height: 30px;
-  width: 30px;
+  height: 45px;
+  width: 45px;
 }
 
 .un {
@@ -58,6 +58,9 @@ img {
 .hidden p {
   color: #979797;
 }
+.hidden img {
+  display: none;
+}
 .hidden:hover {
   background-color: #FFF;
   border: 1px dotted #555;
@@ -70,6 +73,9 @@ img {
 }
 .hidden:hover .trois {
   color: red;
+}
+.hidden:hover img {
+  display: block;
 }
 
 .border {

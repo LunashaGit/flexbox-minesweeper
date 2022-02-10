@@ -21,17 +21,17 @@ section{
     div{
         height: 50px;
         width: 55px;
-        margin: 0 auto;
-        border: 1px dotted #555;
-        font-size: 30px;
         text-align: center;
-        padding-top: 10px;
+        margin: 0 auto;
+        padding-top: 5px;
+        border: 1px dotted #555;
+        font-size: 45px;
     }
 }
 
 img{
-    height: 30px;
-    width: 30px;
+    height: 45px;
+    width: 45px;
 }
 .un{
     color: blue;
@@ -55,6 +55,9 @@ img{
     p{
         color: rgb(151, 151, 151);
     }
+    img{
+        display: none;
+    }
     &:hover{
         background-color: #FFF;
         border: 1px dotted #555;
@@ -66,6 +69,9 @@ img{
         }
         .trois{
             color: red;
+        }
+        img{
+            display: block
         }
     }
 }
