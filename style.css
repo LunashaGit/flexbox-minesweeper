@@ -20,7 +20,7 @@ section {
   border-right: 10px solid #dbdbdb;
   border-bottom: 10px solid #dbdbdb;
   flex-wrap: wrap;
-  margin: 0 auto;
+  margin: auto;
 }
 section div {
   height: 50px;
