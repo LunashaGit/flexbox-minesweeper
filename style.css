@@ -8,15 +8,15 @@
 }
 
 section {
-  display: flex;
-  margin: 0 auto;
-  max-height: 500px;
-  max-width: 500px;
-  flex-wrap: wrap;
   border-left: 10px solid #353535;
   border-top: 10px solid #353535;
   border-right: 10px solid #979797;
   border-bottom: 10px solid #979797;
+  flex-wrap: wrap;
+  max-height: 500px;
+  max-width: 500px;
+  display: flex;
+  margin: 0 auto;
 }
 section div {
   height: 50px;
@@ -53,6 +53,13 @@ img {
 }
 .hidden:hover {
   background-color: #FFF;
+}
+
+.border {
+  border: #464646 solid 10px;
+  max-width: 510px;
+  max-height: 510px;
+  margin: auto;
 }
 
 /*# sourceMappingURL=style.css.map */
