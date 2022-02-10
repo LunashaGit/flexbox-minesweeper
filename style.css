@@ -14,7 +14,7 @@ section {
   border-bottom: 10px solid #dbdbdb;
   flex-wrap: wrap;
   max-height: 500px;
-  max-width: 500px;
+  max-width: 456px;
   display: flex;
   margin: 0 auto;
 }
@@ -50,12 +50,17 @@ img {
 
 .hidden {
   background-color: #979797;
+  border-left: #353535 solid 1px;
+  border-top: #353535 solid 1px;
+  border-bottom: #FFF solid 1px;
+  border-right: #FFF solid 1px;
 }
 .hidden p {
   color: #979797;
 }
 .hidden:hover {
   background-color: #FFF;
+  border: 1px dotted #555;
 }
 .hidden:hover .un {
   color: blue;
@@ -69,7 +74,7 @@ img {
 
 .border {
   border: #a0a0a0 solid 10px;
-  max-width: 510px;
+  max-width: 476px;
   max-height: 515px;
   margin: auto;
 }
