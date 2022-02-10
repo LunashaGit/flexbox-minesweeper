@@ -10,8 +10,8 @@
 section {
   border-left: 10px solid #353535;
   border-top: 10px solid #353535;
-  border-right: 10px solid #979797;
-  border-bottom: 10px solid #979797;
+  border-right: 10px solid #dbdbdb;
+  border-bottom: 10px solid #dbdbdb;
   flex-wrap: wrap;
   max-height: 500px;
   max-width: 500px;
@@ -51,14 +51,26 @@ img {
 .hidden {
   background-color: #979797;
 }
+.hidden p {
+  color: #979797;
+}
 .hidden:hover {
   background-color: #FFF;
 }
+.hidden:hover .un {
+  color: blue;
+}
+.hidden:hover .deux {
+  color: green;
+}
+.hidden:hover .trois {
+  color: red;
+}
 
 .border {
-  border: #464646 solid 10px;
+  border: #a0a0a0 solid 10px;
   max-width: 510px;
-  max-height: 510px;
+  max-height: 515px;
   margin: auto;
 }
 

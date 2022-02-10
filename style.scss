@@ -11,8 +11,8 @@
 section{
     border-left: 10px solid rgb(53, 53, 53);
     border-top:10px solid rgb(53, 53, 53);
-    border-right:10px solid rgb(151, 151, 151);
-    border-bottom:10px solid rgb(151, 151, 151);
+    border-right:10px solid rgb(219, 219, 219);
+    border-bottom:10px solid rgb(219, 219, 219);
     flex-wrap: wrap;
     max-height: 500px;
     max-width: 500px;
@@ -48,14 +48,26 @@ img{
 
 .hidden{
     background-color: rgb(151, 151, 151);
+    p{
+        color: rgb(151, 151, 151);
+    }
     &:hover{
         background-color: #FFF;
+        .un{
+            color: blue;
+        }
+        .deux{
+            color: green;
+        }
+        .trois{
+            color: red;
+        }
     }
 }
 
 .border{
-    border: rgb(70, 70, 70) solid 10px;
+    border: rgb(160, 160, 160) solid 10px;
     max-width: 510px;
-    max-height: 510px;
+    max-height: 515px;
     margin: auto; 
 }
