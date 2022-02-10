@@ -8,14 +8,14 @@
 }
 
 section {
+  display: flex;
+  max-height: 500px;
+  max-width: 456px;
   border-left: 10px solid #353535;
   border-top: 10px solid #353535;
   border-right: 10px solid #dbdbdb;
   border-bottom: 10px solid #dbdbdb;
   flex-wrap: wrap;
-  max-height: 500px;
-  max-width: 456px;
-  display: flex;
   margin: 0 auto;
 }
 section div {

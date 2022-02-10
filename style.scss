@@ -9,14 +9,14 @@
 }
 
 section{
+    display: flex;
+    max-height: 500px;
+    max-width: 456px;
     border-left: 10px solid rgb(53, 53, 53);
     border-top:10px solid rgb(53, 53, 53);
     border-right:10px solid rgb(219, 219, 219);
     border-bottom:10px solid rgb(219, 219, 219);
-    flex-wrap: wrap;
-    max-height: 500px;
-    max-width: 456px;
-    display: flex;
+    flex-wrap: wrap;    
     margin: 0 auto;
     div{
         height: 50px;
